@@ -19,10 +19,10 @@ def getOneTimeLink(links_arr, amount_of_links):
         driver.find_element("id", "data").send_keys(f"CONFIRMED {today}")
         
         # Link Pass
-        driver.find_element("id", "inputPassword").send_keys("ha23")
+        #driver.find_element("id", "inputPassword").send_keys("ha23")
         
         #Email Alert
-        driver.find_element("id", 'inputEmail').send_keys("hamzaashrafashraf678@gmail.com")
+        driver.find_element("id", 'inputEmail').send_keys(" ")
         
         #Drop down for link expirey
         grade_dropdown = Select(driver.find_element("id", "select"))
